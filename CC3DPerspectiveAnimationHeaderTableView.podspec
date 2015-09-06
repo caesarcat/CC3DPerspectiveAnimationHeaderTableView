@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CC3DPerspectiveAnimationHeaderTableView"
   s.version      = "0.1.0"
-  s.summary      = "A short description of CC3DPerspectiveAnimationHeaderTableView."
+  s.summary      = "3D perspective animation view."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+CC3DPerspectiveAnimationHeaderTableView is a UITableView which implemented 3D perspective animation header.
                    DESC
 
   s.homepage     = "https://github.com/caesarcat/CC3DPerspectiveAnimationHeaderTableView"
-  s.screenshots  = "github.com/caesarcat/CC3DPerspectiveAnimationHeaderTableView/blob/master/sample1.gif"
+  s.screenshots  = "https://raw.githubusercontent.com/caesarcat/CC3DPerspectiveAnimationHeaderTableView/master/sample1.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -77,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/caesarcat/CC3DPerspectiveAnimationHeaderTableView", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/caesarcat/CC3DPerspectiveAnimationHeaderTableView.git", :tag => "0.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
